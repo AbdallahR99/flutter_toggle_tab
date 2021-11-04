@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 widthInPercent(double percent, BuildContext context) {
   var toDouble = percent / 100;
-  return MediaQuery.of(context).size.width * toDouble;
+  return MediaQuery.of(context).size.width * toDouble - 15.4;
 }
 
 heightInPercent(double percent, BuildContext context) {
